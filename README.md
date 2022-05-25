@@ -8,4 +8,4 @@ Studies show that waking up in the middle of REM (rapid eye movement) sleep make
 Rest (ah!) assured, REM works offline too, just load the page once and you'll be all set. If you find yourself using the app a lot you can also add the app to your iPhone homescreen.
 
 ## What else?
-I've been using [Sleepyti.me](http://sleepyti.me) for a while and loved it, but I quickly grew tired of its table based mobile–sucky layout, so I created my own. I also needed offline support, so here we are. If something's not working be sure to hit me up on [Twitter](http://twitter.com/marcodallagatta)!
+I've been using [Sleepyti.me](http://sleepyti.me) for a while and loved it, but I quickly grew tired of its (at the time) table based layout on mobile, so I created my own. I also needed offline support, so here we are. If something's not working be sure to hit me up on [Twitter](http://twitter.com/marcodallagatta)!
