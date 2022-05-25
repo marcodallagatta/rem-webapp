@@ -1,0 +1,15 @@
+CACHE MANIFEST
+# rev 2
+
+CACHE:
+index.html
+sleepat.html
+sleepnow.html
+css/style.css
+js/sleep.min.js
+js/fastclick.min.js
+favicon.ico
+icon.png
+
+NETWORK:
+*

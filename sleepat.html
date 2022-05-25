@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US" manifest="cache.manifest">
+<head>
+	<meta charset="utf-8"/>
+	<title>REM</title>
+
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="initial-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<link rel="apple-touch-icon-precomposed" href="favicon.png"/>
+	<link rel="icon" href="favicon.png">
+	<!--[if IE]><link rel="shortcut icon" href="favicon.ico"><![endif]-->
+	<meta name="msapplication-TileColor" content="#1A1F27">
+	<meta name="msapplication-TileImage" content="favicon.png">
+
+	<link rel="stylesheet" href="css/style.css">
+	<script type='application/javascript' src='js/fastclick.min.js'></script>
+	<script src="js/sleep.min.js"></script>
+</head>
+<body>
+
+<div class="sleepatpage animated fadeIn">
+
+	<h2>I want to wake up at</h2>
+
+	<form name="sleepatform">
+		<label for=”kHour” accesskey=”h”>Hour</label>
+		<input name="kHour" type="number" pattern="[0-9]*" min="0" max="23" placeholder="H" />
+		<label for=”kMinute” accesskey=”m”>Minutes</label>
+		<input name="kMinute" type="number" pattern="[0-9]*" min="0" max="59" placeholder="M" /><br />
+		<input type="button" value="Show me the way" onClick="sleepat()">
+	</form>
+
+	<div id="sleepat"></div>​
+
+</div>
+</body>
+</html>
